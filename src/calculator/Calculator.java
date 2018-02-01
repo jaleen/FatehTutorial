@@ -60,7 +60,7 @@ public class Calculator implements ActionListener {
         b4.addActionListener(this);
     }
 
-    public void actionPerfomed(ActionEvent e) {
+    public void actionPerformed(ActionEvent e) {
         String a = t1.getText();
         String b = t2.getText();
 
